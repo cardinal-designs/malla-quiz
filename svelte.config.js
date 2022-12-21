@@ -2,7 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 // import { vitePreprocess } from '@sveltejs/kit/vite';
 import preprocess from 'svelte-preprocess';
 
-const githubPagesUrl = 'https://cardinal-designs.github.io/malla-quiz/';
+const githubPagesUrl = '/malla-quiz';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
