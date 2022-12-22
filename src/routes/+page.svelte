@@ -149,20 +149,14 @@
     cursor: pointer;
   }
 
-  
-  button:hover {
-    font-size: 80px;
-    transform: translateY(20%);
+  button.neighbor {
+    font-size: 22px;
+    transform: translateY(0.5%);
   }
 
   button.selected {
     font-size: 80px;
     transform: translateY(20%);
-  }
-
-  button.neighbor {
-    font-size: 22px;
-    transform: translateY(0.5%);
   }
 
   .arrow-svg {
